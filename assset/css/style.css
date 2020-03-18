@@ -1,0 +1,221 @@
+body{
+    
+    /* border: solid lightgray 10px; */
+    margin-bottom: 10%; 
+}
+header{
+    background-color: rgba(119,90, 90,0.9);
+    margin-bottom: 50px;
+    width: 100%;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    /* position: relative;
+    top: 100px;
+    left: 100px; */
+
+    /* position: absolute;
+    top: 0px;
+    right: 0px; */
+}
+/* abou the blog */
+ul{
+  list-style-type: none;
+}
+img.profile{
+  opacity: 0.5;
+  filter: alpha(opacity=50); 
+}
+img.profile:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); 
+}
+
+nav>ul >li{
+    display: inline-block;
+    padding: 10px 3px;
+    font-size: 20px;
+}
+nav >ul > li > a{
+    text-decoration: none;
+    color: aquamarine;
+}
+nav >ul >li:link{
+    background-color: red;
+}
+nav >ul >li:visited{
+    background-color: blue;
+}
+nav >ul >li:hover{
+    background-color: green;
+}
+nav >ul >li:active{
+    background-color: black;
+}
+h1{
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    margin-top: 7%;
+    padding: 10px;
+}
+p{
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 10px;
+}
+.continer{
+    display: grid;
+    grid-template-columns: 60% 25% 15%;
+}
+div.part3>ul{
+    position: fixed;
+    margin: 7%;
+    
+}
+div.part1>p>img{
+    float: right;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+#hov{
+    position: absolute;
+    top: auto;
+    left: auto;
+    transform: translate(5%,25%);
+    border: 5px solid peru;
+    box-shadow: 0 5px 15px rgb(80, 90, 150);
+}
+h3{
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    margin-top: 7%;
+    margin-left: 20%;
+} 
+.partA{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: powderblue;
+}
+#id1>img{
+    float: left;
+    width: 30%;
+    height: 300px;
+    border-radius: 50%;
+}
+div.gallery {
+    margin: 0 1%;
+    border: 1px solid rgb(204, 204, 204);
+    float: left;
+    width: 22%;
+    border-radius: 0px 0px 50px 50px;
+    height: 300px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+/* for contact Form */
+div.form1{
+    margin-top: 25%;
+}
+    h2 {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 2.5em;
+      border: 1px solid #555;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding-top: 20px;
+      height: 75px;
+      color: #fff;
+      font-weight: 500;
+      line-height: 40px;
+      padding-left: 50px;
+    }
+  
+    input {
+      margin-bottom: 14px;
+      width: 100%;
+      outline: none;
+      border: none;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 11px;
+      padding-left: 15px;
+      height: 44px;
+      border-radius: 10px;
+      background-color: rgba(252, 252, 252, 0.9);
+    }
+    textarea {
+      margin-bottom: 14px;
+      width: 95%;
+      outline: none;
+      border: none;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 11px;
+      padding: 15px;
+      height: 218px;
+      border-radius: 10px;
+      background-color: rgba(252, 252, 252, 0.9);
+    }
+    .btn {
+      width: 100%;
+      height: 50px;
+      border-radius: 10px;
+      border: 2px solid #333;
+      color:gray;
+      background-color: rgba(8, 245, 225, 0.9);
+    }
+
+  #map-canvas {
+    width: 100%;
+    height: 135px;
+    margin-bottom: 15px;
+    border: 2px solid #fff;
+  }
+  .part2 {
+    text-align: left;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 30%;
+    left: 65%;
+  }
+
+  input[type=text]:focus {
+    background-color: lightblue;
+}
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+#main{
+  margin: 0% 20%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+#comm{
+  background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+
+/* 
+}
+16px = 100% = 1 em 
+ */
