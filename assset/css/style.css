@@ -304,7 +304,7 @@ th:hover {background-color: #f5f5f5}
 td:hover {background-color: #f5f5f5}
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   /* header{
     display: none;
   } */
@@ -316,12 +316,12 @@ td:hover {background-color: #f5f5f5}
     left: 0px;
     top: 0px;
 }
-@media screen and (max-width:600px ){
+@media screen and (max-width:750px ){
   header>nav>ul>li{
     font-size: 10px;
   }
 }
-@media screen and (max-width:600px ){
+@media screen and (max-width:750px ){
   .dropbtn{
     font-size: 10px;
     background-color: rgba(24, 167, 211, 0.9);
@@ -332,7 +332,7 @@ td:hover {background-color: #f5f5f5}
 }
 
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .continer{
       display: block;
   }
@@ -371,8 +371,8 @@ h1{
 }
 .partA{
   color: rgb(0,0,0);
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 0%;
+  margin-right: 0%;
   margin-bottom: 0em;
 }
 #id1>img{
@@ -382,8 +382,8 @@ h1{
   border-radius: 50%;
 }
 div.form1{
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 0%;
+  margin-right: 0%;
 }
 h2 {
   background-color: rgba(0, 200, 214, 0.7);
@@ -459,6 +459,12 @@ h3{
   font-style: normal;
   font-size: smaller;
   font-weight: lighter;
+}
+#KK{
+  font-family: cursive;
+  color: aqua;
+  background-color: black;
+  float: right;
 }
 
 /* #id1{grid-area: a1;}
