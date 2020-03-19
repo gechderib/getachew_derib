@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Getache/Blog</title>
     <link rel="stylesheet" href="assset/css/style.css">
-    <!-- <style>
+    <style>
         body{
-            background-color: rgba(117, 121, 118, 0.486);
+            background-color: rgba(0, 0, 0, 0.158);
         }
-    </style> -->
+    </style>
 </head>
 <body>
     <header>
@@ -37,7 +37,7 @@
         <section>
             <p class="title">What does it matter to use relative size(%,em,rem) on styling the size of an element so that the element is responsive ?</p>
             <article>
-                <p>Seven main thing you can learn from a good programers Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem qui perspiciatis sit incidunt maiores delectus ullam dicta aliquam Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit praesentium rem, reprehenderit vel dolor ducimus voluptatibus, excepturi quod quasi fugit beatae tempore assumenda. Nemo consequuntur voluptatibus excepturi! Mollitia, dolorum. Odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ab molestias, animi magni vitae dolores sint doloremque tempore quam repellat eum accusamus accusantium saepe, qui consequatur itaque non, distinctio harum! eligendi voluptatum maxime rem dolorum animi dolores cumque, et minima explicabo tenetur.</p>
+                <p></p>
             </article>
             <p class="date">March 18 ,2020 ,4 am</p>
         </section>
@@ -45,7 +45,51 @@
         <section>
             <p class="title">What 16px default browser width mean and How does the browser interpret it ?</p>
             <article>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem placeat unde voluptates iusto ipsum laboriosam, deleniti sunt optio rem! Libero modi doloribus unde adipisci harum vitae ducimus ad ratione corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eum obcaecati modi, autem quis earum? Atque vero, eveniet modi quasi quia earum iure mollitia animi, voluptatem error, commodi nobis. Quisquam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam esse eum voluptates voluptatem accusantium laudantium vel itaque iusto fugiat, debitis similique error perferendis dolorem, maxime perspiciatis amet, nemo voluptate fuga. it is love</p>
+                <p id="pp1">
+                    In css rem stands for  “root em” 
+According to w3s spec the definition of one rem unite
+Equal to the computed value of font-size on the root element. When specified on the font-size property of the root element, the rem units refer to the property’s initial value
+This means that 1rem equals the font size of the html element (which for most browsers has a default value of 16px).
+
+<p id="b">Rem Units vs. Em Units</p>
+<p id="pp1">The main problem with em units is that they are relative to the font size of their own element. As such they can cascade and cause unexpected results. Let’s consider the following example, where we want lists to have a font size of 12px, in the case where the root font size is the default 16px:</p>
+<p id="box">
+    html <br>{<br>
+        font-size: 100% <br>
+    } <br> <br>
+    ul <br>{<br>
+        font-size: 0.75rem <br>
+    }
+
+</p>
+<p id="pp1">If we have a list nested inside another list, the font size of the inner list will be 75% of the size of its parent (in this case 9px). We can still overcome this problem by using something along these lines:</p>
+<p id="box">
+    ul li <br> { <br>
+        font-size:1em <br>
+    }
+</p>   
+<p id="pp1">This does the trick, however we still have to pay a lot of attention to situations where nesting gets even deeper.
+<br> With rem units, things are a simpler:
+    </p>  
+    <p id="box">
+        html <br> { <br>
+            font-size:100% <br>
+        } <br><br>
+        ul <br>{ <br>
+            font-size: 0.75rem <br>
+        }
+    </p>
+    <p id="pp1">
+        As all the sizes are referenced from the root font size, there is no more need to cover the nesting cases in separate declarations.
+    </p>  
+    <p id="pp1">
+        It is obvious that there are many advantages in using rem units in our code, like responsiveness, 
+        scalability, improved reading experience, and greater flexibility in defining components.
+        it is also a good news for developers 
+    </p>         
+</p>
+<p><a href="https://www.sitepoint.com/understanding-and-using-rem-units-in-css/" target="_blank">source....</a></p>
+
             </article>
             <p class="date">March 19 ,2020 ,7 am</p>
         </section>
@@ -54,7 +98,55 @@
             <p class="title">Explain in detail(in technical terms) the specific changes in css3 
             </p>
             <article>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam quos laborum voluptas assumenda excepturi pariatur quas, quo minus quibusdam quaerat libero sit accusamus dolores nostrum sunt neque alias iure aut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus labore, perspiciatis saepe hic optio sequi eligendi suscipit tempora. Blanditiis inventore aut at saepe, doloribus tempora quae deleniti autem dignissimos porro! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, eum sequi maxime corrupti harum vel, magni exercitationem fuga cumque porro non aut esse dicta, optio blanditiis quis deleniti accusamus in? it is it</p>
+                <p id="pp1">CSS3 version introduced new features that allowed developers to style HTML elements with less CSS code.
+                    CSS3 is backwards-compatible with former CSS versions. It means that CSS3 features work on web pages using older CSS. 
+                    Browsers that support CSS2 also represent the modifications with CSS3.
+                    The main difference between CSS and CSS3 is that CSS3 offers new features and separates CSS into convenient modules.
+                    Also, CSS2 consisted of a single specification that defined individual features. 
+                    However, separate documents (modules) introduced CSS3 features</p>
+                    <p id="a">changes in css3</p>
+                    <p id="b"><b><i>Box Shadow</i></b>
+                    <p id="pp1">It adds a shadow to an element Instead of using multiple images around an item, 
+                        this property lets you add shadow with a short line of code.</p>
+                    
+                    <p id="b"><b><i>Opacity</i></b></p>
+                    <p id="pp1">makes elements see-through or completely transparent. <br>
+                        For instance, you can apply opacity to images or other HTML elements. The transparency level depends on the indicated values
+                        <br> Example: my home page profile picture </p>
+                                            
+                    <p id="b"><b><i>Round corner</i></b></p>
+                    <p id="pp1">Before the release of CSS3, developers had to write long code to produce rounded corners. Now, it is enough to apply the
+                        border-radius CSS3 property to HTML elements.
+                        <br> Example: my gallery page images </p>
+                    
+                    <p id="b"><b><i>Attribute selector</i></b></p>
+                    <p id="pp1">CSS3 also introduced new selectors in addition to the ones in CSS2. Instead of applying IDs or classes for styling, 
+                        developers can select HTML elements according to their attributes. <br>
+                        As a result, you do not have to create unique IDs only to apply CSS rules <br>
+                        Example h1 and p selector for home page and contact page </p>
+                    
+                    <p id="b"><b><i>New color</i></b></p>
+                    <p id="pp1">One of the CSS3 features is the addition of new colors:</p> 
+                        <ul>
+                            <li><p>RGBA(RED,GREEN,BLUE,ALPHA)</p></li>
+                            <li>HSL
+                                <p id="pp1"> HSL stands for hue, saturation, and lightness. Unlike RGB, where you need to manipulate the saturation or brightness 
+                                    of a color by changing all three-color values in concert, with HSL you can tweak either just the saturation or the 
+                                    lightness while keeping the same base hue. The syntax for HSL comprises an integer value for hue, and percentage 
+                                    values for saturation and lightness.
+                                    — The hue in degrees from 0 to 359. Some examples are: 0 = red, 60 = yellow, 120= green, 180 = cyan, 240 = blue, and
+                                    300 = magenta. <br>The a in hsla( ) here also functions the same way as in rgba( )
+                                •	HSLA</p>
+                            </li>
+                            <li><p id="pp1">Gradient Color Example: my comment page background</p></li>
+                        </ul>
+                    
+                                             
+                    <p id="b"><b><i>More than web safe font</i></b></p>
+                    <p id="pp1">
+                    Instead of only using fonts labeled as web-safe, developers now can apply more unique fonts in their HTML documents. 
+                    Before that, CSS wanted to ensure that all browsers and machines display fonts the same</p>
+                    <p><a href="https://www.bitdegree.org/learn/css3-features" target="_blank">source....</a></p>
             </article>
             <p class="date">March 19 ,2020 ,7:50 am</p>
         </section>

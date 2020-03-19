@@ -86,3 +86,16 @@
     'a3 a3 a3';
     padding: 2px;
 }
+@media only screen and (max-width:700px){
+    .grid-container {
+        display: block;
+        background-color: rgba(0, 170, 255, 0.137);
+        padding: 1px;
+      }
+      #id4{
+          display: none;
+      }
+      #ff{
+          margin-top: 25%;
+      }
+}
