@@ -10,13 +10,7 @@ header{
     position: fixed;
     right: 0px;
     top: 0px;
-    /* position: relative;
-    top: 100px;
-    left: 100px; */
 
-    /* position: absolute;
-    top: 0px;
-    right: 0px; */
 }
 /* abou the blog */
 ul{
@@ -309,10 +303,87 @@ th:hover {background-color: #f5f5f5}
 td:hover {background-color: #f5f5f5}
 
 
-@media screen and (max-width: 100px) {
-  body {
-      background-color: rgba(53, 59, 61, 0.664);
+@media screen and (min-width: 1400px) {
+  header{
+    background-color: rgba(24, 167, 211, 0.9);
+    margin-bottom: 50px;
+    width: 100%;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}
+
+}
+@media screen and (min-width: 1400px) {
+  .continer{
+      display: block;
   }
+  div.part1>p>img{
+    float: inline-start;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+#hov{
+    position: relative;
+    transform: translate(5%,25%);
+    border: 5px solid peru;
+    box-shadow: 0 5px 15px rgb(80, 90, 150);
+}
+.centered {
+  position: relative;
+}
+h1{
+  font-style: oblique;
+}
+.partA{
+  color: rgba(28, 209, 59, 0.322);
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 0em;
+}
+#id1>img{
+  float: inline-start;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+div.form1{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+h2 {
+  background-color: rgba(0, 200, 214, 0.7);
+}
+
+input {
+  text-transform: capitalize;
+  background-color: rgba(60, 96, 131, 0.301);
+}
+textarea {
+  margin-bottom: 14px;
+  text-transform: capitalize;
+  background-color: rgb(255, 255, 255);
+}
+.btn {
+  width: 100%;
+  color:rgb(0, 0, 0);
+  background-color: rgba(8, 44, 245, 0.9);
+}
+
+#map-canvas {
+width: 0%;
+height: 135px;
+margin-top: 10%;
+margin-bottom: 0px;
+border: 2px solid #fff;
+}
+.part2 {
+text-align: left;
+color: rgb(0, 247, 255);
+position: static;
+}
+
 }
 
 /* #id1{grid-area: a1;}
