@@ -5,8 +5,19 @@ DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS!*/
 /* Give the <body> element a background of #bdc3c7*/
 body{
     background-color: #bdc3c7;
+    margin-bottom: 10%;
 }
-
+/* For media qurie */
+@media screen and (max-width: 900px) {
+    body {
+        background-color: rgba(53, 59, 61, 0.664);
+    }
+}
+/* @media screen and (min-width: 300px) {
+    body {
+        background-color: rgba(248, 0, 0, 0.664);
+    }
+} */
 /* Make the <h1> element #9b59b6*/
 h1{
     color: #9b59b6;
@@ -32,7 +43,7 @@ p{
 }
 
 /*Make all inputs have a 3px red border*/
-*{
+input{
     border: 3px red solid;
 }
 
@@ -77,6 +88,7 @@ div:nth-of-type(3)>p:nth-of-type(2){
 
 div:nth-of-type(3)>p:nth-of-type(1)>em{
     font-size: 20px;
+    color: white;
 }
 
 /*BONUS CHALLENGES*/
@@ -118,15 +130,7 @@ header{
     position: fixed;
     right: 0px;
     top: 0px;
-    /* position: relative;
-    top: 100px;
-    left: 100px; */
-
-    /* position: absolute;
-    top: 0px;
-    right: 0px; */
 }
-/* abou the blog */
 ul{
   list-style-type: none;
 }

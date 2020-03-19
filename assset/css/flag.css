@@ -1,3 +1,8 @@
+@media screen and (max-width: 900px) {
+    body {
+        background-color: rgba(99, 161, 180, 0.726);
+    }
+}
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -13,6 +18,10 @@
 .block{
     width: 27rem;
     height: 100px; 
+}
+.block1{
+    width: 27rem;
+    height: 60px;
 }
 #b{
     background-color: black;

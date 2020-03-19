@@ -1,3 +1,4 @@
+
 .allPart{
     min-height: 600px;
     display: flex;
@@ -5,6 +6,11 @@
     align-items: center;
     justify-content:center;
     background:#eee;
+  }
+  @media screen and (max-width: 900px) {
+    .allPart, body {
+        background-color: rgba(99, 161, 180, 0.726);
+    }
   }
 
   #a{
